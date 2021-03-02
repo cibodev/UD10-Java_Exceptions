@@ -23,7 +23,10 @@ public class CustomError extends Exception{
 		String mensaje="";
 		switch (cError) {
 		case 100:
-			System.out.println("Error de ejemplo");
+			System.out.println("El numero es par");
+			break;
+		case 101:
+			System.out.println("El numero es impar");
 			break;
 
 		default: 
